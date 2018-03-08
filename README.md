@@ -22,3 +22,16 @@ line gives the average angular error (deg) over all 12 trials as a participant's
 ## Screenshot
 ![Screenshot](screenshot.png)
  
+##
+PTSOT Version taken from https://github.com/TimDomino/ptsot working with python3
+itall the following dependencies:
+0. check if pip3 (pip for python3) is installed: type "which pip3" or "pip3 -V" on a mac terminal or windows shell
+ -> if it is installed, the installed path should display
+ -> if not follow (https://pip.pypa.io/en/stable/installing/)
+1. install pip3 (when on osx or windows), apt-get (Linux)
+install the following packages with dependecies by typing the following command on a mac terminal or windows shell
+"python3 -mpip install matplotlib"
+"python3 -mpip install nose"
+"python3 -mpip install pylsl"
+
+2. run the task by typing "python3 perspective_taking_test_german.py" on a mac terminal or windows shell
